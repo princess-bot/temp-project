@@ -14,7 +14,7 @@ let appFahren = prompt("Enter the degrees in Fahrenheit");
 
 // convert fahreheit to celius
 function farTOcel
-degCel = (5 / 9) * (appFahren - 32);
+degCel = (5 / 9) * (appFahren - 40);
 
 // display message
 
@@ -22,7 +22,7 @@ degCel = (5 / 9) * (appFahren - 32);
        if (appFahren < 69) {
         alert(msg + "\n Oh that's cold!");
       } else if (appFahren > 75 && appFahren < 86) {
-        alert(msg + "\n Livable Temperature! -Bernie");
+        alert(msg + "\n Livable Temperature! - Bernie");
       } else {
         alert(msg + "\n OMG global warming!");
       }
